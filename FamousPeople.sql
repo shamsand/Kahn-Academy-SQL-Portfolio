@@ -47,3 +47,15 @@ from movies;
 
 select *
 from married;
+
+select movie_stars.fullname, movies.title
+from movie_stars
+join movies
+on movie_stars.id = movies.person_id;
+
+select a.fullname, b.fullname 
+from married
+join movie_stars a
+on married.person1_id = a.id
+join movie_stars b
+on married.person2_id = b.id;
