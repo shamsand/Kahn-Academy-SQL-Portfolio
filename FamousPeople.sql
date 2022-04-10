@@ -1,4 +1,7 @@
-/* Create table about the people and what they do here */
+/* In this project, you’re going to make your own table with some small set of “famous people”, then make more tables about things they do and join those to create nice human readable lists. */
+
+
+
 CREATE TABLE movie_stars (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     fullname TEXT,
